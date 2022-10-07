@@ -73,7 +73,7 @@ public class PLllllll : MonoBehaviour
             {
                 txt.text = "Turn off";
                 txxt.text = "light";
-                txxxt.text = "and go home";
+                txxxt.text = "and RUN";
                 t5.active = true;
             }
         }

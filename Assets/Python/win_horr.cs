@@ -36,13 +36,15 @@ public class win_horr : MonoBehaviour
                 print(hit.collider.gameObject.name);
             }
         }
-        if (_notes == 5)
-        {
-            t.active = true;
-        }
         if (_notes2 == 1)
         {
             H.active = true;
+            _notes++;
+            _notes2 = 0;
+        }
+        if (_notes == 7)
+        {
+            t.active = true;
         }
     }
 }

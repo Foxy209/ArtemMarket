@@ -47,9 +47,9 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - You-are-lost
+          - People
         unityVersion:
-          - 2021.3.3f1
+          - 2021.3.4f1
         targetPlatform:
           - StandaloneOSX
           - StandaloneWindows
@@ -57,7 +57,7 @@ jobs:
           - StandaloneLinux64
           #- iOS
           #- Android
-          - WebGL
+          #- WebGL
           
     steps:
       - uses: actions/checkout@v2

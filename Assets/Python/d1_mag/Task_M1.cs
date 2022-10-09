@@ -40,6 +40,7 @@ public class Task_M1 : MonoBehaviour
             txt.text = "Lay out";
             txxt.text = "the products";
         }
+        
         if (ts.active == true)
         {
             task = 3;
@@ -67,17 +68,12 @@ public class Task_M1 : MonoBehaviour
             txxxt.text = " ";
             t4.active = true;
         }
+        
         if (ef.active == true)
-        {
-            task = 5;
-        }
-
-        if (task == 5)
         {
             txt.text = "Turn off";
             txxt.text = "light";
             txxxt.text = "and go home";
-            t5.active = true;
         }
     }
 }

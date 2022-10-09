@@ -22,11 +22,11 @@ public class TT3_1 : MonoBehaviour
 
     private void Update()
     {
-        Up();
         if (Cam.active == true)
         {
-            txt.text = "Space= drop the product  F=roll           In total=" + fdd.ToString();   
+            txt.text = "Space= drop the product  F=roll           In total=" + fdd;
         }
+        Up();
     }
 
     private void OnTriggerStay(Collider other)

@@ -8,6 +8,7 @@ public class TR_5T_1 : MonoBehaviour
     public GameObject spot;
     public GameObject tr;
     public GameObject tr2;
+    public GameObject pl;
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
@@ -15,6 +16,7 @@ public class TR_5T_1 : MonoBehaviour
             light.active = false;
             tr2.active = true;
             spot.active = true;
+            Destroy(pl);
             Destroy(tr);
         }
     }

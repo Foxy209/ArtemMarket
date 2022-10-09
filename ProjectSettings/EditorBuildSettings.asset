@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/magazun5.unity
     guid: 65133cfa68f1e0b41977b4377423395b
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: 9dc60cb0d6abcb649a6abbe8e3990a9c
   m_configObjects: {}

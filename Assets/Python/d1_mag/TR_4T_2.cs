@@ -10,7 +10,7 @@ public class TR_4T_2 : MonoBehaviour
     public GameObject sh2;
     public GameObject tr;
     public GameObject ta5;
-    public GameObject ta4;
+    public GameObject tarr;
 
     private void OnTriggerStay(Collider other)
     {
@@ -19,8 +19,8 @@ public class TR_4T_2 : MonoBehaviour
             sh.active = true;
             tr.active = false;
             ta5.active = true;
+            tarr.active = true;
             Destroy(sh2);
-            Destroy(ta4);
         }
     }
 }

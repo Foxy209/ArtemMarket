@@ -45,12 +45,12 @@ public class TR_3T_4 : MonoBehaviour
             s.Play();
         }
 
-        if (fd == 10)
+        if (fd == 80)
         {
             aaa();
         }
         
-        if (fd == 15)
+        if (fd == 87)
         {
             aaa2();
         }

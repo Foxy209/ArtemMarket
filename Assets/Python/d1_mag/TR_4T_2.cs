@@ -17,7 +17,7 @@ public class TR_4T_2 : MonoBehaviour
         if (other.tag == "Player")
         {
             sh.active = true;
-            tr.active = false;
+            Destroy(tr);
             ta5.active = true;
             tarr.active = true;
             Destroy(sh2);

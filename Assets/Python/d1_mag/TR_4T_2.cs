@@ -20,7 +20,6 @@ public class TR_4T_2 : MonoBehaviour
             Destroy(tr);
             ta5.active = true;
             tarr.active = true;
-            Destroy(sh2);
         }
     }
 }

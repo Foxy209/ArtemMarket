@@ -74,6 +74,7 @@ public class Task_M1 : MonoBehaviour
             txt.text = "Turn off";
             txxt.text = "light";
             txxxt.text = "and go home";
+            task = 5;
         }
     }
 }
